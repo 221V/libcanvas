@@ -55,7 +55,7 @@ app.container.size = new Size(1500, 1200);
 
 ### Методи
 
-#### createLayer
+#### `createLayer`
 
 ```js
 LibCanvas.App.Layer createLayer(object settings)
@@ -67,7 +67,7 @@ LibCanvas.App.Layer createLayer(object settings)
 var layer = app.createLayer({ name: 'units' });
 ```
 
-#### destroy
+#### `destroy`
 
 ```js
 LibCanvas.App destroy( )
@@ -79,7 +79,7 @@ LibCanvas.App destroy( )
 app.destroy();
 ```
 
-#### zIndexCompare
+#### `zIndexCompare`
 
 ```js
 int zIndexCompare(LibCanvas.App.Element left, LibCanvas.App.Element right)
