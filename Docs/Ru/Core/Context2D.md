@@ -29,7 +29,7 @@ var context = new LibCanvas.Context2D(canvas);
 Возвращает/изменяет высоту холста
 
 ### size (get/set)
-Возвращает/изменяет высоту холста
+Возвращает/изменяет размеры холста
 
 ```js
 context.size = new Size(400, 250);
