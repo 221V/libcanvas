@@ -185,9 +185,9 @@ context.fill(new Circle(50, 50, 20), 'red');
 
 ```js
 [this] stroke()
-[this] stroke(string fillStyle)
+[this] stroke(string strokeStyle)
 [this] stroke(Shape shape)
-[this] stroke(Shape shape, string fillStyle)
+[this] stroke(Shape shape, string strokeStyle)
 ```
 
 Обводит фигуру или текущий путь цветом strokeStyle или цветом по-умолчанию, если аргумент не передан
