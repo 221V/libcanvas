@@ -9,7 +9,7 @@
 ### Ініціалізація
 
 ```js
-var app = new LibCanvas.App( object settings )
+var app = new LibCanvas.App(object settings)
 ```
 
 Settings може містити наступні параметри:
@@ -70,7 +70,7 @@ var layer = app.createLayer({ name: 'units' });
 #### `destroy`
 
 ```js
-LibCanvas.App destroy( )
+LibCanvas.App destroy()
 ```
 
 Знищує додаток

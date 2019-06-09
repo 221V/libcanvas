@@ -75,7 +75,7 @@ LibCanvas.App.MouseHandler subscribe(LibCanvas.App.Element element)
 Підписує елемент на подію мишки.
 
 ```js
-mouseHandler.subscribe( element );
+mouseHandler.subscribe(element);
 
 element.events.add('click', function (e) {
 	console.log('element зловив клік мишки', e);
